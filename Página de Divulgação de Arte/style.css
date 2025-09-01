@@ -1,0 +1,111 @@
+.navbar-title {
+  position: absolute;
+   font-family: "Times New Roman", Times, serif;
+  left: 50%;
+  color: white;
+}
+.navbar-fundo{
+  background-color: rgba(19, 19, 19, 0.966);
+   box-shadow: 0px 30px 20px 10px rgb(0, 0, 0, 0.1); /*Fundo da barra de navegação */
+  border-radius: 5px;
+}
+.fundologo{
+  background-color: rgba(255, 255, 255, 0.904);
+  border-radius: 15px;
+}
+.fundosite{
+     background-color:ivory; /* fundo do site */
+}
+.separar{
+  margin: 100px;
+}
+.div-textos{
+  text-align: center;
+  flex:2;
+  font-size: 50px;
+  width: 50vh;
+  color: black;
+  
+}
+.div-textos:hover{
+  color: rgba(0, 0, 0, 0.877);
+  background-color: rgb(243, 243, 243);
+
+}
+.div-artes{
+  text-align: center;
+  flex: 2;
+  font-size: 50px;
+  width: 50vh;
+  color: black;
+}
+.div-artes:hover{
+  color: rgba(0, 0, 0, 0.877);
+  background-color: rgb(243, 243, 243);
+
+}
+.fundo-colunas{
+  background-color: white;
+  margin: 70px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 0px 20px 10px rgb(0, 0, 0, 0.1);
+}
+.editar-btn{
+  width: 100%;
+  font-size: 40px;
+  padding: 15px;
+}
+.conteudo {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.904);
+  border-radius: 10px;
+  text-align: center;
+  margin: 70px;
+}
+.poesia{
+  text-align: left;
+  font-size: 50px;
+}
+.nav-alinhar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-estilo{
+  object-fit: cover;
+}
+pre{
+  font-size: 20px;
+}
+.escurotema{
+  background-color: rgba(63, 23, 0, 0.644);
+}
+.navbar-escuro{
+  background-color: rgb(80, 0, 0);
+  box-shadow: 0px 30px 20px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.coluna-escura{
+  background-color: rgba(255, 255, 255, 0.925);
+box-shadow: 0px 0px 20px 30px rgb(0, 0, 0, 0.1);
+    margin: 70px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+footer{
+  background-color: black;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+.texto-footer{
+  font-size: 25px;
+}
+.ocuparespaço{
+  margin: 39vh;
+}
