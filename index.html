@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IloveArt</title>
+    <link rel="icon" type="image/png" href="IloveArt.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body" class="fundosite">
+    <!-- NavBar -->
+    <header>
+    <nav id="barra" class="navbar navbar-fundo">
+      <div class="container-fluid position-relative">
+        <a class="navbar-brand" href="#">
+          <div class="fundologo">
+          <img src="IloveArt.png" alt="Logo" width="120" height="74" class="logo-navbar">
+          </div>
+        
+        </a>
+        <div class="escuro">
+        <button onclick="trocarTema()" class="btn btn-light"><img src="MEC.svg" width="50" alt="Escuro/Claro"> </button>
+          </div>
+
+        <h1 class="display-6 navbar-title">I ❤ Art</h1>
+      </div>
+    </nav>
+  </header>
+    <!-- separar navbar de content -->
+    <div class="separar"></div>
+
+    <content>
+      <!-- inicio da div: Textos e Artes -->
+
+      <div>
+        <!-- container -->
+        <div id="coluna" class="justify-content-between fundo-colunas">
+          <div class="row g-3">
+
+          <ul class="nav nav-tabs nav-alinhar" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active div-textos" id="home-tab" data-bs-toggle="tab" data-bs-target="#textos" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Textos</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link div-artes" id="profile-tab" data-bs-toggle="tab" data-bs-target="#artes" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Artes</button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="textos" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <!-- TEXTOS -->
+
+            <h1 class="display-6">Rupi Kaur – Milk and Honey</h1>
+            <br>
+            <pre>
+“Quero pedir desculpas a todas as mulheres
+que chamei de bonitas
+antes de chamá-las de inteligentes ou corajosas
+desculpe por fazer parecer que
+algo tão simples como o que você nasce com
+é o que mais deveria se orgulhar”
+            </pre>
+            <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+            <br><br>
+
+            <h1 class="display-6">Claudia Rankine – Citizen: An American Lyric</h1>
+            <pre>
+“Porque homens brancos não conseguem
+controlar sua imaginação
+homens negros estão morrendo.”
+            </pre>
+            <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+            <br><br>
+
+            <h1 class="display-6">Amanda Gorman – The Hill We Climb</h1>
+            <pre>
+“Quando o dia chegar, nos perguntamos,
+onde podemos encontrar luz nesta sombra sem fim?
+A perda que carregamos,
+um mar que devemos atravessar.”
+            </pre>
+            <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+
+          </div>
+
+        </div>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade" id="artes" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <!-- ARTES -->
+            <div class="container">
+              <div class="row">
+                
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card ">
+      <img src="https://arteref.com/wp-content/uploads/2019/10/lixo-extraordinário.jpg" height="500" class="card-img-top card-estilo" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Vik Muniz</h5>
+        <p class="card-text">Fotografias com materiais inusitados, para contactar: <a href="https://nararoesler.art">Galeria Nara Roesler</a></p>
+        <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card-estilo">
+      <img src="https://artebrasileiros.com.br/wp-content/uploads/2022/10/Serie-Jatobas.jpg" height="500" class="card-img-top card-estilo" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rosana Paulino</h5>
+        <p class="card-text">Bordado, colagem, fotografia com narrativa étnica, para contactar: <a href="https://mendeswooddm.com/pt">Galeria Mendes Wood</a> </p>
+        <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card-estilo">
+      <img src="https://www.escritoriodearte.com/quadro/cildo-meireles-sem-titulo-acrilica-sobre-tela-8323g.webp" height="500" class="card-img-top card-estilo" alt="...">
+      <div class="card-body">
+        <h5 class="card-title ">Cildo Meireles</h5>
+        <p class="card-text">Instalações conceituais e sensoriais (ex: “Experiência Cromática”), para contactar: <a href="https://www.luisastrina.com.br">Galeria Luisa Strina</a></p>
+        <button onclick="favoritar(this)" class="coracao btn">🤍</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+    </content>
+    <div class="ocuparespaço"></div>
+
+    <footer>
+
+      <h1 class="display-6 texto-footer">Website desenvolvido por:</h1>
+      <h1 class="display-6 texto-footer">Manoah Walker & Marco Budzinski</h1>
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
